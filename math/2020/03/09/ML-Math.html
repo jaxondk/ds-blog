@@ -4,18 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>fastpages | An easy to use blogging platform with support for Jupyter Notebooks.</title>
+<title>Ml Math | fastpages</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="fastpages" />
+<meta property="og:title" content="Ml Math" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
-<meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
-<link rel="canonical" href="https://jaxondk.github.io/ds-blog/" />
-<meta property="og:url" content="https://jaxondk.github.io/ds-blog/" />
+<meta name="description" content="Cheat Sheet: Math for Machine Learning" />
+<meta property="og:description" content="Cheat Sheet: Math for Machine Learning" />
+<link rel="canonical" href="https://jaxondk.github.io/ds-blog/math/2020/03/09/ML-Math.html" />
+<meta property="og:url" content="https://jaxondk.github.io/ds-blog/math/2020/03/09/ML-Math.html" />
 <meta property="og:site_name" content="fastpages" />
-<meta property="og:image" content="https://jaxondk.github.io/ds-blog/images/logo.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-09T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://jaxondk.github.io/ds-blog/","@type":"WebSite","headline":"fastpages","image":"https://jaxondk.github.io/ds-blog/images/logo.png","name":"fastpages","description":"An easy to use blogging platform with support for Jupyter Notebooks.","@context":"https://schema.org"}</script>
+{"url":"https://jaxondk.github.io/ds-blog/math/2020/03/09/ML-Math.html","@type":"BlogPosting","headline":"Ml Math","dateModified":"2020-03-09T00:00:00-05:00","datePublished":"2020-03-09T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jaxondk.github.io/ds-blog/math/2020/03/09/ML-Math.html"},"description":"Cheat Sheet: Math for Machine Learning","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/ds-blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jaxondk.github.io/ds-blog/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/ds-blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -67,52 +68,42 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><p>This site is built with <a href="https://github.com/fastai/fastpages">fastpages</a>, An easy to use blogging platform with extra features for Jupyter Notebooks.</p>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-<p><img src="/ds-blog/images/diagram.png" alt="" title="https://github.com/fastai/fastpages" /></p>
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Ml Math</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-09T00:00:00-05:00" itemprop="datePublished">
+        Mar 9, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
 
-<p><a href="https://github.com/fastai/fastpages">fastpages</a> automates the process of creating blog posts via GitHub Actions, so you don’t have to fuss with conversion scripts.  A full list of features can be found on <a href="https://github.com/fastai/fastpages">GitHub</a>.</p>
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/ds-blog/categories/#math">math</a>
+        
+      
+      </p>
+    
 
-<p>You can edit the <code class="language-plaintext highlighter-rouge">index.html</code> file to change this content.</p>
+    </header>
 
-<h1 id="posts">Posts</h1>
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="cheat-sheet-math-for-machine-learning">Cheat Sheet: Math for Machine Learning</h1>
 
+<h3 id="motivation">Motivation</h3>
+<p>I often find myself needing to look up various mathematical components of machine learning models, loss functions, activation functions, etc. This is a space where I hope to keep a quick reference for such things, and also to get into the nitty gritty of some math things that previously I’ve always just accepted at face value or simply glanced over.</p>
 
+<h3 id="loss-functions">Loss functions</h3>
+<h4 id="kl-divergence">KL Divergence</h4>
+<p>Kullback-Leibler Divergence (also called <em>relative entropy</em>) is a measure comparing a probability distribution to another, ground-truth distribution. A value of 0 signifies that the two distributions are identical.</p>
 
-  
-
-  <!-- Hide posts if front matter flag hide:true -->
-  
-  
-
-  <!-- Sort posts by rank, then date -->
-  
-  
-  
-
- 
-  
-
-   <!-- Assemble final sorted posts array -->
-  
-  <ul class="post-list"><li><h3>
-    <a class="post-link" href="/ds-blog/2020/04/18/Capstone-ML.html">
-    Capstone Ml
-    </a>
-</h3><p class="post-meta">Apr 18, 2020</p>
-</li><li><h3>
-    <a class="post-link" href="/ds-blog/jupyter/2020/02/20/test.html">
-    Fastpages Notebook Blog Post
-    </a>
-</h3><p class="post-meta-description">A tutorial of fastpages for Jupyter notebooks.</p><p class="post-meta">Feb 20, 2020</p>
-</li><li><h3>
-    <a class="post-link" href="/ds-blog/markdown/2020/01/14/test-markdown-post.html">
-    An Example Markdown Post
-    </a>
-</h3><p class="post-meta-description">A minimal example of using markdown with fastpages.</p><p class="post-meta">Jan 14, 2020</p>
-</li></ul>
-
-    </div>
+  </div><a class="u-url" href="/ds-blog/math/2020/03/09/ML-Math.html" hidden></a>
+</article>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/ds-blog/"></data>
