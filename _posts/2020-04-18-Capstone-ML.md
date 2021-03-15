@@ -1,5 +1,5 @@
 ---
-title: Capstone: Automating Fall Detection with Machine Learning
+title: Capstone - Automating Fall Detection with Machine Learning
 author: Jaxon Keeler
 comments: true
 ---
